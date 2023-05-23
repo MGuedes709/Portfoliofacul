@@ -1,0 +1,51 @@
+body {
+            background-image: url(imgs/borda-de-neon-synthwave-em-vetor-de-modelo-de-banner-de-blog-em-azul-escuro_53876-144375.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center
+        }
+
+        ul a {
+            background-color: grey;
+        }
+
+        footer {
+            background-color: rgba(27, 27, 36, 0.801);
+            color: whitesmoke;
+        }
+
+        .nav-link2,
+        .nav-link {
+            color: white;
+            text-decoration: none;
+        }
+
+        .round-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+            margin-bottom: 300px;
+        }
+
+        .redessociais {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .retorno {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            margin-right: auto;
+        }
