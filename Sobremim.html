@@ -14,19 +14,19 @@
 
 <body class="p-3 m-0 border-0 bd-example">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary-subtle" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Menu</a>
+            <a class="navbar-brand" href="#" id="Menu">Menu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="Inicio.html">Página Principal</a>
+                    <a class="nav-link active" aria-current="page" href="Paginaprincipal.html">Página Principal</a>
                     <a class="nav-link" href="Sobremim.html">Sobre mim</a>
-                    <a class="nav-link" href="#">Formação</a>
-                    <a class="nav-link" href="#">Atuação Profissional</a>
+                    <a class="nav-link" href="Formação.html">Formação</a>
+                    <a class="nav-link" href="Atuação Profissional.html">Atuação Profissional</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="true">
@@ -45,58 +45,122 @@
         </div>
     </nav>
     <h1 class="sobremimh1">Sobre Mim:</h1>
-    <p class="sobremimp">Meu nome é Marco Antônio, estou cursando Sistemas de Informação na Faculdade Metodista Granbery</p>
-    <div class="container">
-        <footer class="py-5">
-            <div class="row">
-                <div class="col-6 col-md-2 mb-3">
-                    <a href="#Menu" class="nav-link2 "><img src="imgs/retorno.png" class="retorno"></a>
-                    <h5>Redes Sociais</h5>
-                    <l class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://www.instagram.com/macrguedess/" class="nav-link2 "
-                                target="_blank"><img src="imgs/instaportfolio.jpg" class="redessociais"></a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="https://wa.me/5532984366945" class="redessociais "
-                                target="_blank"><img src="imgs/whatsappportfolio.png"></a></li>
-                        <li class="nav-item mb-2"><a href="https://twitter.com/MarcoRGuedes" class="redessociais"
-                                target="_blank"><img src="imgs/twitterlogo.png"></a></li>
-                        <li> <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#envioemail" data-bs-whatever="@fat">Enviar E-mail</button>
-                        </li>
+    <p class="sobremimp">Olá! Meu nome é Marco Antônio, e sou um desenvolvedor web com foco em projetos relacionados a
+        e-sports e entretenimento digital. Tenho experiência no desenvolvimento de sites e aplicações para e-sports,
+        assim como no trabalho com plataformas de streaming. Trabalhei em projetos envolvendo o renomado Counter-Strike
+        2, além de colaborar com empresas como Twitch, Kabum e Valve.</p>
+
+    <h2 class="sobremimh2">Experiência Profissional:</h2>
+    <ul>
+        <li>
+            <p class="sobremimp">Desenvolvedor Web na <a href="https://www.valvesoftware.com/pt-br/" class="valve">Valve Software</a> (2019 - 2022)
+        <li>
+            <p class="sobremimp">Desenvolvimento de sites e aplicações interativas para a comunidade de e-sports, com
+                destaque para a criação de plataformas de informações, estatísticas e torneios relacionados ao
+                Counter-Strike 2.</p>
+        </li>
+        <li>
+            <p class="sobremimp">Implementação de recursos avançados, como sistemas de autenticação de usuário,
+                integração com APIs de jogos e interfaces de usuário responsivas.</p>
+        </li>
+        <li>
+            <p class="sobremimp">Colaboração com equipes multidisciplinares, incluindo designers e especialistas em
+                UX/UI, para entregar produtos de alta qualidade.</p>
+        </li>
+    </ul>
+    <h2 class="sobremimh2">Projetos Destacados:</h2>
+    <ul>
+        <li>
+            <p class="sobremimp">Desenvolvimento da plataforma de streaming <a href="https://www.twitch.tv/" class="twitch">Twitch</a>
+                (2017 - 2019)</p>
+        <li>
+            <p class="sobremimp">Criação de uma plataforma de streaming ao vivo focada em e-sports, com recursos
+                personalizados para transmissões de partidas de Counter-Strike 2.</p>
+        </li>
+        <li>
+            <p class="sobremimp">Implementação de funcionalidades como bate-papo ao vivo, sistemas de monetização para
+                streamers e integração com redes sociais.</p>
+        </li>
+        <li>
+            <p class="sobremimp">Otimização do desempenho e escalabilidade da plataforma para suportar um grande número
+                de visualizações simultâneas.</p>
+        </li>
+    </ul>
+
+    <h2 class="sobremimh2">Educação:</h2>
 
 
-                        <div class="modal" id="envioemail" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true" style="display: none;">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Enviar E-mail</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Remetente:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="message-text" class="col-form-label">Mensagem:</label>
-                                                <textarea class="form-control" id="message-text"
-                                                    style="height: 23px;"></textarea>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Fechar</button>
-                                        <button type="button" class="btn btn-primary">Enviar</button>
-                                    </div>
-                                </div>
+    <ul>
+        <li>
+            <p class="sobremimp">Bacharelado em Ciência da Computação na Universidade Federal de Juiz de Fora (2015 -
+                2019)</p>
+        </li>
+        <li>
+            <p class="sobremimp">Cursos de Desenvolvimento Web Avançado e Programação em JavaScript na plataforma online
+                Coursera (2018)</p>
+        </li>
+        <h2 class="sobremimh2"> Habilidades:</h2>
+
+        <ul>
+            <li>
+                <p class="sobremimp">Linguagens de Programação: HTML5, CSS3, JavaScript, PHP</p>
+            </li>
+            <li>
+                <p class="sobremimp">Frameworks e Bibliotecas: React, Vue.js, Bootstrap, Laravel</p>
+            </li>
+            <li>
+                <p class="sobremimp">Banco de Dados: MySQL, MongoDB</p>
+            </li>
+            <li>
+                <p class="sobremimp">Ferramentas e Tecnologias: Git, Adobe Photoshop, RESTful APIs</p>
+                <h2 class="sobremimh2">Objetivos:</h2>
+                <p class="sobremimp">Estou em constante busca por desafios estimulantes na área de desenvolvimento web,
+                    especialmente em
+                    projetos que
+                    envolvam e-sports e entretenimento digital. Meu objetivo é criar experiências interativas e
+                    envolventes
+                    para a
+                    comunidade de jogadores, contribuindo para o crescimento e o sucesso de projetos inovadores.</p>
+
+                <h2 class="sobremimh2">Interesses e Paixões:</h2>
+                <p class="sobremimp">Além de minha dedicação ao desenvolvimento web, sou um entusiasta dos e-sports e
+                    adoro acompanhar
+                    torneios de
+                    Counter-Strike 2. Também tenho interesse em novas tecnologias relacionadas a streaming de vídeo e
+                    estou
+                    sempre
+                    atualizado sobre as tendências do setor.
+
+                    Se você está procurando um desenvolvedor web com experiência em e-sports, plataformas de streaming e
+                    projetos
+                    envolvendo a Counter-Strike 2, estou à disposição para colaborar e trazer soluções criativas para
+                    sua
+                    equipe.</p>
+                
+
+
+                <div class="rodape">
+                    <div class="container">
+                        <footer
+                            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                            <div>
+                                <span class="copyright">© 2023 Criado por Marco Guedes</span>
                             </div>
-                        </div>
-                        </ul>
+
+                            <a href="#Menu" class="retorno">
+                                <img src="imgs/retorno.png" alt="Voltar ao topo">
+                              </a>
+                            <ul class="nav justify-content-end">
+                                <li class="ms-3"><a class="text-body-secondary me-3"
+                                        href="https://wa.me/5532984366945"><img src="imgs/whatsappportfolio.png"
+                                            alt="Whatsapp" class="redessociais1"></a></li>
+                                <li class="ms-3"><a class="text-body-secondary me-3"
+                                        href="https://twitter.com/MarcoRGuedes"><img src="imgs/twitterlogo.png"
+                                            alt="Twitter" class="redessociais1"></a></li>
+                                <li class="ms-3"><a class="text-body-secondary"
+                                        href="https://www.instagram.com/macrguedess/"><img src="imgs/instaportfolio.jpg"
+                                            alt="Instagram" class="redessociais1"></a></li>
+                            </ul>
+                        </footer>
+                    </div>
                 </div>
-        </footer>
-    </div>
-</body>

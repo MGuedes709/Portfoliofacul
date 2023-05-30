@@ -16,7 +16,7 @@
 
 <body class="p-3 m-0 border-0 bd-example">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary-subtle" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#" id="Menu">Menu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -25,10 +25,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="Inicio.html">Página Principal</a>
+                    <a class="nav-link active" aria-current="page" href="Paginaprincipal.html">Página Principal</a>
                     <a class="nav-link" href="Sobremim.html">Sobre mim</a>
-                    <a class="nav-link" href="#">Formação</a>
-                    <a class="nav-link" href="#">Atuação Profissional</a>
+                    <a class="nav-link" href="Formação.html">Formação</a>
+                    <a class="nav-link" href="Atuação Profissional.html">Atuação Profissional</a>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="true">
@@ -37,8 +37,10 @@
                         <ul class="dropdown-menu show" data-bs-popper="static">
                             <li><a class="dropdown-item" href="https://www.instagram.com/macrguedess/"
                                     target="_blank">Instagram</a></li>
-                            <li><a class="dropdown-item" href="https://twitter.com/MarcoRGuedes" target="_blank">Twitter</a></li>
-                            <li><a class="dropdown-item" href="https://wa.me/5532984366945" target="_blank">Whatsapp</a></li>
+                            <li><a class="dropdown-item" href="https://twitter.com/MarcoRGuedes"
+                                    target="_blank">Twitter</a></li>
+                            <li><a class="dropdown-item" href="https://wa.me/5532984366945" target="_blank">Whatsapp</a>
+                            </li>
                         </ul>
                 </div>
             </div>
@@ -47,13 +49,13 @@
 
     <img src="imgs/fotositeportfolio.jpg" class="round-image">
     <h1 class="fotodescrição">MARCO GUEDES</h1>
-    <p class="Paragrafo1">Meu nome é Marco Antônio, estou cursando Sistemas de Informação na Faculdade Metodista
-        Granbery.</p>
-    <p class="Paragrafo1">Tenho conhecimentos em programação e desenvolvimento web</p>
+    <p class="Paragrafo1">Olá! Meu nome é Marco Antônio, e sou um desenvolvedor web com foco em projetos relacionados a
+        e-sports e entretenimento digital. Tenho experiência no desenvolvimento de sites e aplicações para e-sports,
+        assim como no trabalho com plataformas de streaming. Trabalhei em projetos envolvendo o renomado Counter-Strike
+        2, além de colaborar com empresas como Twitch, Kabum e Valve.</p>
     <p class="Paragrafo1">Sites em que trabalhei:</p>
     <ul class="trabalhos">
         <li>Counter-Strike 2</li>
-        <li>Netflix</li>
         <li>Twitch</li>
         <li>Kabum</li>
         <li>Steam</li>
@@ -62,56 +64,55 @@
     <div class="b-example-divider"></div>
 
 
-    <div class="container">
-        <footer class="py-5">
-            <div class="row">
-                <div class="col-6 col-md-2 mb-3">
-                    <a href="#Menu" class="nav-link2 "><img src="imgs/retorno.png"class="retorno"></a>                 
-                    <h5>Redes Sociais</h5>
-                    <l class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://www.instagram.com/macrguedess/" class="nav-link2 "
-                                target="_blank"><img src="imgs/instaportfolio.jpg" class="redessociais"></a>
-                        </li>
-                        <li class="nav-item mb-2"><a href="https://wa.me/5532984366945" class="redessociais "
-                                target="_blank"><img src="imgs/whatsappportfolio.png"></a></li>
-                        <li class="nav-item mb-2"><a href="https://twitter.com/MarcoRGuedes" class="redessociais"
-                                target="_blank"><img src="imgs/twitterlogo.png"></a></li>
-                        <li> <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#envioemail" data-bs-whatever="@fat">Enviar E-mail</button>
-                        </li>
+    <div class="rodape">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="row align-items-start">
 
-
-                        <div class="modal" id="envioemail" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true" style="display: none;">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Enviar E-mail</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                            <div class="mb-3">
-                                                <label for="recipient-name" class="col-form-label">Remetente:</label>
-                                                <input type="text" class="form-control" id="recipient-name">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="message-text" class="col-form-label">Mensagem:</label>
-                                                <textarea class="form-control" id="message-text"
-                                                    style="height: 23px;"></textarea>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Fechar</button>
-                                        <button type="button" class="btn btn-primary">Enviar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <a class="text-body-secondary custom-link d-flex align-items-center"
+                                href="https://wa.me/5532984366945">
+                                <img src="imgs/whatsappportfolio.png" alt="Whatsapp" class="redessociais1 me-2">
+                                Whatsapp
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="text-body-secondary custom-link d-flex align-items-center"
+                                href="https://twitter.com/MarcoRGuedes">
+                                <img src="imgs/twitterlogo.png" alt="Twitter" class="redessociais1 me-2">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="text-body-secondary custom-link d-flex align-items-center"
+                                href="https://www.instagram.com/macrguedess/">
+                                <img src="imgs/instaportfolio.jpg" alt="Instagram" class="redessociais1 me-2">
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <p>Email para contato:marcoguedes709@gmail.com</p>
+                        </li>
                     </ul>
                 </div>
-        </footer>
+                <div class="col-md-6">
+                    <form class="small-form">
+                        <div class="form-group">
+                            <label for="email" class="sr-only">Endereço de e-mail:</label>
+                            <input type="email" class="form-control form-control-sm" id="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem" class="sr-only">Mensagem:</label>
+                            <textarea class="form-control form-control-sm" id="mensagem" rows="2"
+                                placeholder="Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+                    </form>
+                </div>
+        </div>
+        <div><span class="copyright">© 2023 Criado por Marco Guedes</span></div>
     </div>
+    </footer>
+
+</body>
