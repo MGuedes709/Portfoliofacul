@@ -1,5 +1,5 @@
 body {
-    background-image: url(imgs/borda-de-neon-synthwave-em-vetor-de-modelo-de-banner-de-blog-em-azul-escuro_53876-144375.avif);
+    background-image: url(imgs/background/background2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -85,21 +85,26 @@ footer {
 }
 
 @media (max-width: 768) {
+
     .coursera,
     .udemy,
     .udacity {
-      width: 30%;
-      margin-left: 5%;
-      margin-right: 2%;}
-      @media (max-width: 480px) {
+        width: 30%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+
+    @media (max-width: 480px) {
+
         .coursera,
         .udemy,
         .udacity {
-          width: 60%;
-          margin-left: 10%;
-          margin-right: 5%;
+            width: 60%;
+            margin-left: 10%;
+            margin-right: 5%;
         }
     }
+
     nav ul {
         display: none;
     }
@@ -298,25 +303,27 @@ h2 li {
 .coursera,
 .udemy,
 .udacity {
-  width: 10%;
-  max-width: 320px;
-  height: auto;
-  border-radius: 50%;
-  overflow: hidden;
-  display: inline-flex;
-  margin-left: 2%;
-  margin-right: 200px;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  float: right;
+    width: 10%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-flex;
+    margin-left: 2%;
+    margin-right: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    float: right;
 }
+
 .coursera img,
 .udemy img,
 .udacity img {
-  position: absolute;
-  top: 0;
-  left: -50px;}
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
 
 .contatos {
     color: whitesmoke;
@@ -329,11 +336,12 @@ h2 li {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 50px;
+    margin-top: 40px;
 }
 
 .contatos1 {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     overflow: hidden;
     display: inline-flex;
@@ -341,6 +349,7 @@ h2 li {
     margin-left: 15px;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 25px;
 }
 
 .contatosa {
@@ -364,19 +373,40 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
+
 .emailcontato {
     width: 50%;
     height: 50%;
     margin: 0 auto;
     margin: 0 auto;
-    border: 1px solid #000000;
     padding: 10px;
-    background-color: #00182e;
+    background-color: transparent;
     margin-left: 350px;
     position: absolute;
-    top: 330px;
+    top: 250px;
     right: 200px;
- color: whitesmoke;
+    color: whitesmoke;
+}
+
+.emailcontato input[type="text"],
+.emailcontato input[type="email"],
+.emailcontato textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contate-nos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contatep {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
 }
 
 .container {
